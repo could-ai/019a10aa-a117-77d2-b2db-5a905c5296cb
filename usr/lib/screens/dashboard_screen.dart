@@ -20,7 +20,7 @@ class DashboardScreen extends StatelessWidget {
             const SizedBox(height: 24),
             Text(
               "Your Weekly Progress",
-              style: Theme.of(context).textTheme.headline6,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 16),
             const ProgressChart(),
